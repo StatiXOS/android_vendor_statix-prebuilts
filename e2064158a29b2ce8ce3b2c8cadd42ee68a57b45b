@@ -16,6 +16,24 @@
       "message": "I\u0027m unsure if this is a good idea, but it works as expected.",
       "revId": "e2064158a29b2ce8ce3b2c8cadd42ee68a57b45b",
       "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "d55bfddf_42219767",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000122
+      },
+      "writtenOn": "2024-02-02T00:14:39Z",
+      "side": 1,
+      "message": "Maybe the overlay to set the carrierconfig package should also be added (vendor/statix maybe?) since it won\u0027t work without that",
+      "parentUuid": "75ca64df_1ba4f1a8",
+      "revId": "e2064158a29b2ce8ce3b2c8cadd42ee68a57b45b",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
     }
   ]
 }
