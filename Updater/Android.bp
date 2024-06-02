@@ -1,0 +1,27 @@
+android_app_import {
+        name: "Updater",
+        apk: "Updater.apk",
+        certificate: "platform",
+        dex_preopt: {
+                enabled: false,
+        },
+        privileged: true,
+        system_ext_specific: true,
+        required: ["privapp_whitelist_com.statix.updater", "default-permissions_com.statix.updater"],
+}
+
+prebuilt_etc {
+    name: "privapp_whitelist_com.statix.updater",
+    system_ext_specific: true,
+    sub_dir: "permissions",
+    src: "privapp_whitelist_com.statix.updater.xml",
+    filename_from_src: true,
+}
+
+prebuilt_etc {
+    name: "default-permissions_com.statix.updater",
+    system_ext_specific: true,
+    sub_dir: "default-permissions",
+    src: "default-permissions_com.statix.updater.xml",
+    filename_from_src: true,
+}
