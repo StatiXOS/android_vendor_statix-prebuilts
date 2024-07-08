@@ -1,0 +1,11 @@
+android_app_import {
+    name: "PixelThemesStub2022_and_newer",
+    owner: "google",
+    apk: "PixelThemesStub2022_and_newer.apk",
+    presigned: true,
+    preprocessed: true,
+    dex_preopt: {
+            enabled: false,
+    },
+    product_specific: true,
+}
