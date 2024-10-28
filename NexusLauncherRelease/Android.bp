@@ -5,10 +5,18 @@ android_app_import {
 	presigned: true,
 	preprocessed: true,
 	privileged: true,
-  	system_ext_specific: true,
+	system_ext_specific: true,
         optional_uses_libs: [
             "androidx.window.extensions",
             "androidx.window.sidecar",
         ],
+        required: ["privapp-permissions-nexuslauncher.xml"],
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-nexuslauncher.xml",
+    srcs: ["privapp-permissions-nexuslauncher.xml"],
+    sub_dir: "permissions",
+    system_ext_specific: true,
 }
 
