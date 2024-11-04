@@ -10,4 +10,12 @@ android_app_import {
         },
         privileged: true,
         product_specific: true,
+        required: ["privapp-permissions-settingsintelligence.xml"],
+}
+
+prebuilt_etc {
+    name: "privapp-permissions-settingsintelligence.xml",
+    srcs: ["privapp-permissions-settingsintelligence.xml"],
+    sub_dir: "permissions",
+    product_specific: true,
 }
