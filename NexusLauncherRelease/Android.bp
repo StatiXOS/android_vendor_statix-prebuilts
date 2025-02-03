@@ -1,14 +1,17 @@
 android_app_import {
-	name: "NexusLauncherRelease",
-	apk: "NexusLauncherRelease.apk",
-	overrides: ["Launcher3", "Launcher3QuickStep", "StatixLauncher"],
-	presigned: true,
-	preprocessed: true,
-	privileged: true,
-  	system_ext_specific: true,
-        optional_uses_libs: [
-            "androidx.window.extensions",
-            "androidx.window.sidecar",
-        ],
+    name: "NexusLauncherRelease",
+    apk: "NexusLauncherRelease.apk",
+    overrides: [
+        "Launcher3",
+        "Launcher3QuickStep",
+        "StatixLauncher",
+    ],
+    presigned: true,
+    preprocessed: true,
+    privileged: true,
+    system_ext_specific: true,
+    optional_uses_libs: [
+        "androidx.window.extensions",
+        "androidx.window.sidecar",
+    ],
 }
-
