@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "0f8e2cce_2d2d33bc",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 4
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000125
+      },
+      "writtenOn": "2025-02-03T15:45:17Z",
+      "side": 1,
+      "message": "This fixes the following:\n``W ActivityManager: Unable to start service Intent { cmp\u003dcom.google.android.turboadapter/.GoogleBatteryService } U\u003d0: not found``\n\nThose who use this should also use power-libperfmgr and include hardware/google/pixel-sepolicy/turbo_adapter (I guess?)",
+      "revId": "89391c1c63755951431ddbab9861baef160629a0",
+      "serverId": "039621b9-0c7c-40f3-867c-684f4bc911d6"
+    }
+  ]
+}
