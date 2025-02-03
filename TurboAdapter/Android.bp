@@ -1,0 +1,8 @@
+android_app_import {
+	name: "TurboAdapter",
+	apk: "TurboAdapter.apk",
+	presigned: true,
+	preprocessed: true,
+	privileged: true,
+  	system_ext_specific: true,
+}
